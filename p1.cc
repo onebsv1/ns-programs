@@ -92,10 +92,12 @@ int main(int argc, char **argv)
     ApplicationContainer clientApps[nFlows];
     ApplicationContainer serverApps[nFlows];
 
+    uint32_t port = 9;
+
     //TCP Clients
     for(unsigned int i = 0;i < nFlows; i++){
         //Calling the BulkSendHelper to setup a sender.
-        BulkSendHelper clientHelper ("ns3::TcpSocketFactory",InetSocketAddress (dumbbell.GetRightIpv4Address(i), 9));
+        BulkSendHelper clientHelper ("ns3::TcpSocketFactory",InetSocketAddress (dumbbell.GetRightIpv4Address(i), port));
         // Set the amount of data to send in bytes.  Zero is unlimited.
         clientHelper.SetAttribute ("MaxBytes", UintegerValue (maxBytes));
         clientApps[i] = clientHelper.Install (dumbbell.GetLeft(i));
@@ -108,9 +110,9 @@ int main(int argc, char **argv)
     // TCP Servers    
     for(unsigned int i = 0;i < nFlows; i++){
         //Calling the PacketSinkHelper to setup a receiver(sink).
-        PacketSinkHelper serverHelper("ns3::TcpSocketFactory", InetSocketAddress (Ipv4Address::GetAny(),9));
+        PacketSinkHelper serverHelper("ns3::TcpSocketFactory", InetSocketAddress (Ipv4Address::GetAny(),port));
 
-        AddressValue local(InetSocketAddress(dumbbell.GetRightIpv4Address(i), 9));
+        AddressValue local(InetSocketAddress(dumbbell.GetRightIpv4Address(i), port));
         serverHelper.SetAttribute("Local", local);
         serverApps[i].Add(serverHelper.Install(dumbbell.GetRight(i)));
 
