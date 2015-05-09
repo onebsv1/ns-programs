@@ -1,5 +1,0 @@
-uint32_t 
-OnOffApplication::GetTotBytes ()
-{
-  return m_totBytes;
-}
