@@ -1,0 +1,7 @@
+https://www.nsnam.org/docs/release/3.9/tutorial/tutorial_23.html
+
+https://www.nsnam.org/docs/release/3.7/tutorial/tutorial_32.html
+
+https://www.nsnam.org/wiki/New_TCP_Socket_Architecture#Result_from_tcp-loss-response
+
+http://www.misc-perl-info.com/perl-plotting.html

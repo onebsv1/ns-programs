@@ -1,0 +1,3 @@
+Algo	AODV	Nodes	500	PTx(mW)	500	TrafInt	0.1	TxBytes	6.75e+06	RxBytes	21000	efficiency	0.311111%
+Algo	AODV	Nodes	500	PTx(mW)	500	TrafInt	0.5	TxBytes	3.375e+07	RxBytes	25500	efficiency	0.0755556%
+Algo	AODV	Nodes	500	PTx(mW)	500	TrafInt	0.9	TxBytes	6.075e+07	RxBytes	103500	efficiency	0.17037%

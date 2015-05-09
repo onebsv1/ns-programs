@@ -1,0 +1,1 @@
+flow 0 windowSize 64000 queueSize 32000 Goodput 89736.4

@@ -1,0 +1,10 @@
+flow 0 windowSize 8000 queueSize 64000 Goodput 4381.16
+flow 1 windowSize 8000 queueSize 64000 Goodput 15310.4
+flow 2 windowSize 8000 queueSize 64000 Goodput 10316.4
+flow 3 windowSize 8000 queueSize 64000 Goodput 14384.6
+flow 4 windowSize 8000 queueSize 64000 Goodput 13642.3
+flow 5 windowSize 8000 queueSize 64000 Goodput 4377.22
+flow 6 windowSize 8000 queueSize 64000 Goodput 4377.03
+flow 7 windowSize 8000 queueSize 64000 Goodput 14758.6
+flow 8 windowSize 8000 queueSize 64000 Goodput 4506.9
+flow 9 windowSize 8000 queueSize 64000 Goodput 14322.8

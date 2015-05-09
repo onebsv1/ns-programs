@@ -1,0 +1,10 @@
+flow 0 windowSize 2000 queueSize 32000 Goodput 10463.2
+flow 1 windowSize 2000 queueSize 32000 Goodput 10548.3
+flow 2 windowSize 2000 queueSize 32000 Goodput 10497.3
+flow 3 windowSize 2000 queueSize 32000 Goodput 10564.1
+flow 4 windowSize 2000 queueSize 32000 Goodput 10476.2
+flow 5 windowSize 2000 queueSize 32000 Goodput 10453.8
+flow 6 windowSize 2000 queueSize 32000 Goodput 10453.4
+flow 7 windowSize 2000 queueSize 32000 Goodput 10574.9
+flow 8 windowSize 2000 queueSize 32000 Goodput 10456
+flow 9 windowSize 2000 queueSize 32000 Goodput 10575.3

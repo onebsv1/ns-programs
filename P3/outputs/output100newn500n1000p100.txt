@@ -1,0 +1,4 @@
+Algo OLSR	Nodes	500		 PTx(mW) 100	TrafInt	0.1    	TxBytes 1.35e+07   	RxBytes  	696000		efficiency  	5.15556%
+Algo AODV	Nodes	500		 PTx(mW) 100	TrafInt	0.1    	TxBytes 1.35e+07	RxBytes  	39000		efficiency  	0.288889%
+Algo AODV 	Nodes	500		 PTx(mW) 100	TrafInt	0.5    	TxBytes 6.675e+07  	RxBytes  	141000		efficiency  	0.211236%
+Algo AODV 	Nodes 	1000	 PTx(mW) 100 	TrafInt 0.1    	TxBytes 1.35e+07	RxBytes  	18000 		efficiency  	0.133333%

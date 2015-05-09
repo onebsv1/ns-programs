@@ -1,0 +1,1 @@
+perl -ne 's/^..//;s/\t.*Ack=/ /;s/ Win.*$//;split;print $_[0].q{ }.($_[1]%35000).q{\n}'" using 1:2 w p pt 2 lc rgb "#00FF00" title "ack",
